@@ -22,7 +22,7 @@ Last year I developed web-prject for ordering tickets with using ASP.NET, Entity
 * CVS: Git	
 ## Projects
 * [My course work](https://github.com/VeremeevaKarina/CourseWork)
-* [Project for university practice]https://github.com/VeremeevaKarina/WebProject
+* [Project for university practice](https://github.com/VeremeevaKarina/WebProject)
 * Some code example
 ```
 public void CancelOrders(int loginId, int dateId)
@@ -37,5 +37,5 @@ public void CancelOrders(int loginId, int dateId)
         }
 ```
 ## Languages:
-Russian: *Native*
-English - *Intermiate (B1)*
+* Russian: *Native*
+* English - *Intermiate (B1)*
