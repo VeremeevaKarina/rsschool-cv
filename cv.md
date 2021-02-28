@@ -1,7 +1,7 @@
-# Name
+## Name
 Karina Veremeyeva
 ## Contacts
-* +375 (29) 154-83-17
+* *+375 (29) 154-83-17*
 * karina.veremeyeva@gmail.com
 * [LinkedIn](https://www.linkedin.com/in/karinaveremeyeva)
 ## Summary
@@ -23,19 +23,18 @@ Last year I developed web-prject for ordering tickets with using ASP.NET, Entity
 ## Projects
 * [My course work](https://github.com/VeremeevaKarina/CourseWork)
 * [Project for university practice](https://github.com/VeremeevaKarina/WebProject)
-* Some code example
+* Some code example:
 ```
 public void CancelOrders(int loginId, int dateId)
-        {
-            var ordersToCancelIds = ordersRepository.GetOrders()
-                .Where(q => !q.IsPaid 
-                    && q.LoginId == loginId 
-                    && q.DateId == dateId)
-                .Select(q => q.Id);
-
-            ordersRepository.RemoveRange(ordersToCancelIds);
-        }
+{
+	var ordersToCancelIds = ordersRepository.GetOrders()
+		.Where(q => !q.IsPaid
+			&& q.LoginId == loginId
+			&& q.DateId == dateId)
+			.Select(q => q.Id);
+	ordersRepository.RemoveRange(ordersToCancelIds);
+}          
 ```
 ## Languages:
 * Russian: *Native*
-* English - *Intermiate (B1)*
+* English - *Intermediate (B1)*
